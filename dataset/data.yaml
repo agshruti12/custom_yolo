@@ -1,0 +1,16 @@
+train: /dataset/images/train
+val: /dataset/images/val
+nc: 10
+names:
+  [
+    "car_towards",
+    "car_away",
+    "truck_towards",
+    "truck_away",
+    "bus_towards",
+    "bus_away",
+    "motorcycle_towards",
+    "motorcycle_away",
+    "bicycle_towards",
+    "bicycle_away",
+  ]

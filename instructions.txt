@@ -1,0 +1,9 @@
+Setup:
+1. pip install ultralytics opencv-python pillow
+2. Put your videos into raw_videos 
+
+For each of your videos, do the following: 
+
+python data_prep/detect_and_label.py --video raw_videos/<video_name> --output labelled_dataset --frame-skip 4
+
+example: python data_prep/detect_and_label.py --video raw_videos/cyclar_data_5.mp4 --output labelled_dataset --frame-skip 4
